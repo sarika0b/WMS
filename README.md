@@ -36,14 +36,7 @@ Workers’ database: This database stores all the workers involved and their bas
  - Number of hours worked
 
 System Features 
-Skill Level: The user can specify the expertise of a worker as beginner, intermediate or expert. 
-Work requirements: The user can specify the requirements of a work in the terms of the number of 
- workers of a specific role and skill level required.
-Work duration: The duration of a work is defined as the number of days from its start date till the date
- it is marked as completed by the user, excluding the weekends.
-Availability: The availability of a worker is defined in boolean as 0 (unavailable) or 1 (available).
-Start date: The start date of a work is the date when the requirements of the work are fulfilled and when it 
- can be started according to the priority list.
+ 
 • User/Admin: 
 Access to central database: 
 The Admin, being the superuser, has the ability to:
@@ -52,5 +45,13 @@ The Admin, being the superuser, has the ability to:
 - Assign workers to the works
 - Mark work status as completed
 - Display worker and work details
-Statistics of a worker: The user can view the statiscs of a worker stored by the system like their skill
- level, the total number of hours worked and the previous works done by the worker.
+
+System specifications:
+Skill Level: The user can specify the expertise of a worker as beginner, intermediate or expert. 
+Work requirements: The user can specify the requirements of a work in the terms of the number of 
+ workers of a specific role and skill level required.
+Work duration: The duration of a work is defined as the number of days from its start date till the date
+ it is marked as completed by the user, excluding the weekends.
+Availability: The availability of a worker is defined in boolean as 0 (unavailable) or 1 (available).
+Start date: The start date of a work is the date when the requirements of the work are fulfilled and when it 
+ can be started according to the priority list.
